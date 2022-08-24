@@ -44,7 +44,7 @@
 // let obj1 = ['a','s','d','f','g','h','j','k','l'];
 // console.log(obj1);
 // for (let i in obj1) {
-  
+
 //     // Prints all the keys in
 //     // obj1 on the console
 //     console.log(i);
@@ -58,11 +58,11 @@ const obj1 = {
         end : 'Nov'
     }
 }
-let temp = ''; 
-// for(let key of obj1){
-    
-//     console.log(obj1.key ,":",obj1[key]);
-// }
+// let temp = ''; 
+//  for(let key of obj1){
+
+//    console.log(obj1.key ,":",obj1[key]);
+//  }
 console.log("in loop");
 for(let key in obj1){
    if( typeof key === 'object' &&
@@ -73,3 +73,32 @@ for(let key in obj1){
         console.log(key,":",obj1[key])
     )
 }
+const a = [4, 54, 65, 7];
+// a.forEach((n, i,a)=> {
+//     console.log( n , i, a[i]);;
+
+// });
+
+// const output = a.reduce(function (acc,cur){
+//     if(cur>acc){
+//         acc = cur;
+//     }
+//     return acc;
+//  },0);
+// console.log(output);
+
+// const human = [
+//     { FirstName: "donald", lastName: "trump", age: 59 },
+//     { FirstName: "sabi", lastName: "alam", age: 24 },
+//     { FirstName: "hema", lastName: "malik", age: 24 },
+
+//     { FirstName: "elon", lastName: "musk", age: 48 },
+
+//     { FirstName: "hema", lastName: "malik", age: 24 },
+
+// ];
+// //Map
+// //const output = human.map((x) =>x.firstName + " " + x.lastName
+// //);
+// const output = human.reduce((x) => x.age == 24);
+// console.log(output);
