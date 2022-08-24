@@ -62,7 +62,7 @@ function getdatas(){
     },1000
     );
 }
-df
+d
 function createdata(newdata,callback){
 
     setTimeout(() => {
